@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Product Order Form: Cute Custom Outfits <3 </title>
+</head>
+<h1 style="color: cadetblue;"> Make Your Cute Custom Outfit <3</h1>
+<form action="/register" method="post">
+    <body>
+    <div class="container"  style=" background-color: seagreen" >
+        <div class = "row">
+            <div class = "col-4 col-sm-4 col-lg-4 " style = "border: 1px darkorange">
+                <fieldset>
+                    <legend style="color: darkkhaki;"><div class></div> Customer Information:</legend>
+                    <label for="name" style="color: orange; ">Name:</label><br>
+                    <input type="text" id="name" name="user_name" placeholder="Name Here :)" required ><br>
+                    <label for="mail" style="color: peru;">Email:</label><br>
+                    <input type="email" id="mail" name="user_email"  placeholder="ex. iluv2shop@gmail.com" required><br>
+                    <label for="Comments" id ="Comments" style="color: peachpuff;"> Comments (input size for tops and bottoms & for all selected custom options please specify ie. Rise: Low-rise, Neckline: Sweetheart) :</label><br>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" ></textarea>
+                    <label for="pass" style="color: tan;"> Create a Password (8 characters minimum, 1 uppercase letter, 1 non-alphanumeric character):</label><br>
+                    <input type="password" id="pass" name="password" minlength="8" placeholder="Password Here :)" required >
+                    <input type="submit" value="Submit "><br>
+                </fieldset>
+
+            </div>
+            <div class = "col-4 col-sm-4 col-lg-4" style = "border: 1px darkseagreen">
+                <fieldset>
+                    <legend style="color: #86b7fe;"><div class></div> Tops:</legend>
+                    <input type="radio" id="T-Shirt " name="T-Shirt  "><label>T-Shirt </label><br>
+                    <input type="radio" id="Long Sleeve " name="Long Sleeve "><label>Long Sleeve</label><br>
+                    <input type="radio" id="Blouse " name="Blouse"><label>Blouse</label><br>
+                    <input type="radio" id="Tank Top " name="Tank Top"><label>Tank Top</label><br>
+                </label>
+                </fieldset>
+                <fieldset>
+                    <legend style="color: skyblue;"><div class></div> Color Choice:</legend>
+                    <select class="form-select" aria-label="Default select example" name="selection">
+                        <option selected>Colors:</option>
+                        <option value="1">Red</option>
+                        <option value="2">Orange</option>
+                        <option value="3">Yellow</option>
+                        <option value="4">Green</option>
+                        <option value="5">Blue</option>
+                        <option value="6">Purple</option>
+                        <option value="7">White</option>
+                        <option value="8">Black</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend style="color: navy;"><div class></div> Top Styles:</legend>
+                    <input type="checkbox" id="Cropped" name="Cropped"><label>Cropped</label><br>
+                    <input type="checkbox" id="" name="Neckline"><label>Neckline</label></br>
+                    <input type="checkbox" id="Custom Embroidery" name="Custom Embroidery"><label>Custom Embroidery</label></br>
+                    <input type="checkbox" id="Custom Bleach Dye " name="Custom Bleach Dye"><label>Custom Bleach Dye</label></br>
+
+                </fieldset>
+                <fieldset>
+            </div>
+            <div class="col-4 col-sm-4 col-lg-4" style="border: 1px darkslategrey" >
+                <fieldset>
+                    <legend style="color: lightsalmon;"><div class></div> Bottoms:</legend>
+                    <input type="radio" id="Shorts" name="Shorts"><label>Shorts</label><br>
+                    <input type="radio" id="Jeans" name="Jeans "><label>Jeans </label><br>
+                    <input type="radio" id="Pants" name="Pants "><label>Pants</label><br>
+                    <input type="radio" id="Leggings" name="Leggings"><label>Leggings</label><br>
+                </label>
+                </fieldset>
+                <fieldset>
+                    <legend style="color: navajowhite;"><div class></div> Color Choice:</legend>
+                    <select class="form-select" aria-label="Default select example" name="selection">
+                        <option selected>Colors:</option>
+                        <option value="1">Red</option>
+                        <option value="2">Orange</option>
+                        <option value="3">Yellow</option>
+                        <option value="4">Green</option>
+                        <option value="5">Blue</option>
+                        <option value="6">Purple</option>
+                        <option value="7">Black</option>
+                        <option value="8">White</option>
+
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend style="color: orchid;"><div class></div> Bottom Style Options:</legend>
+                    <input type="checkbox" id="Flared" name="Flared"><label>Flared</label><br>
+                    <input type="checkbox" id="Rise" name="Rise"><label>Rise</label></br>
+                    <input type="checkbox" id="Cargo" name="Cargo"><label>Cargo</label></br>
+                    <input type="checkbox" id="Custom Pattern" name="Custom Pattern"><label>Custom Pattern</label></br>
+
+                </fieldset>
+                <fieldset>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
